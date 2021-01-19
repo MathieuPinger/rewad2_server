@@ -4,7 +4,7 @@ ini_set('display_errors', 1); // debugging
 $post_data = json_decode(file_get_contents('php://input'), true); 
 // the directory "data" must be writable by the server
 //print_r($post_data);
-echo $post_data
+echo $post_data;
 $id = $post_data['prolific_id'];
 $save_data = $post_data['data'];
 $name = "../data/".$id."_exp1.csv"; 
