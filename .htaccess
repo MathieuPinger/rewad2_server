@@ -9,3 +9,6 @@ Options All -Indexes
 
 # prevent folder listing
 IndexIgnore *
+
+# php debugging
+php_flag display_errors 1
