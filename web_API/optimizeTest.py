@@ -10,8 +10,8 @@ import pandas as pd                         #import data
 import json
 import sys
 
-id = sys.argv[1]
-#id = "qwertzy"
+#id = sys.argv[1]
+id = qwertzy
 
 # define necessary functions
 #------------------------------------------------------------------------------
