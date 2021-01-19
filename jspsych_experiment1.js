@@ -118,7 +118,7 @@ function run2FC(trialTimeline) {
         timeline: timeline,
         on_finish: function() {
             saveData(jsPsych.data.get().csv())
-            window.location.assign('questionnaires.html');
+            
             //jsPsych.data.displayData('json');
         },
         on_close: function(){
@@ -137,9 +137,9 @@ function saveData(data) {
     let xhr = new XMLHttpRequest();
     xhr.open('POST', 'web_API/saveExp1.php');
     xhr.setRequestHeader('Content-Type', 'application/json');
-    
     xhr.onload = function(){
         console.log(this.responseText);
+        window.location.assign('questionnaires.html');
     };
 
     xhr.send(JSON.stringify(params));
