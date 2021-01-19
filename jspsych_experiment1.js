@@ -118,7 +118,7 @@ function run2FC(trialTimeline) {
         timeline: timeline,
         on_finish: function() {
             saveData(jsPsych.data.get().csv())
-            window.location.assign('questionnaires.html');
+            //window.location.assign('questionnaires.html');
             //jsPsych.data.displayData('json');
         },
         on_close: function(){
