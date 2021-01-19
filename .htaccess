@@ -3,3 +3,9 @@
 Order allow,deny
 Deny from all
 </Files>
+
+# disable directory browsing
+Options All -Indexes
+
+# prevent folder listing
+IndexIgnore *
