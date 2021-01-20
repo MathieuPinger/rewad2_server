@@ -1,3 +1,9 @@
+/*
+Script for first experimental session
+uncomment console.logs for debugging
+If no data are stored, unable redirect to questionnaires.html to see php errors
+*/
+
 // path to testfile.json
 let dataPath = "testfiles/testfile.json";
 
@@ -10,8 +16,7 @@ document.querySelector('#start').addEventListener(
 
 // function to run experiment with specified json file
 function runExperiment(dataPath) {
-    console.log(dataPath);
-    console.log(sessionStorage.getItem('prolific_id'));
+    //console.log(sessionStorage.getItem('prolific_id'));
 
     // get participant ID from local storage
     let prolific_id = sessionStorage.getItem('prolific_id');
@@ -23,19 +28,19 @@ function runExperiment(dataPath) {
 
         // load and parse JSON
         let trialObj = JSON.parse(this.responseText);
-        console.log(trialObj);
+        //console.log(trialObj);
         
         // object to array
         let trialList = Object.values(trialObj);
-        console.log(trialList);
+        //console.log(trialList);
 
         // TESTING: only use first 5 trials
         trialList = trialList.slice(0, 5);
-        console.log(trialList);
+        //console.log(trialList);
 
         // create jsPsych timeline
         let trialTimeline = createTimeline(trialList);
-        console.log(trialTimeline);
+        //console.log(trialTimeline);
 
         // run 2 forced choice task
         run2FC(trialTimeline);
@@ -55,6 +60,7 @@ function createTimeline(trialArray) {
     // add trials to timeline: loop through trialList
     trialArray.map(trial => {
         let trialData = {
+            post_trial_gap: 300,
             stimulus:
             `<div class = centerbox id='container'>
             <p class = center-block-text>
@@ -64,12 +70,12 @@ function createTimeline(trialArray) {
             </p>
             <div class='table'>
             <div class='row'>
-            <div id = 'option'><center><font color='green'>
+            <div class = 'option' id='leftOption'><center><font color='green'>
                 ${trial.immOpt}
             <br>
                 Today
             </font></center></div>
-            <div id = 'option'><center><font color='green'>
+            <div class = 'option' id='rightOption'><center><font color='green'>
                 ${trial.delOpt}
             <br>
                 in ${trial.delay} days
@@ -79,7 +85,14 @@ function createTimeline(trialArray) {
                 immOpt: trial.immOpt,
                 delOpt: trial.delOpt,
                 delay: trial.delay
-            }
+            }//,
+            // on_finish: function(data) {
+            //     if(data.key_press == 80){
+            //         document.getElementById('rightOption').style.border = "thick solid  #008000";
+            //       } else if(data.key_press == 81){
+            //         document.getElementById('leftOption').style.border = "thick solid  #008000";
+            //       }
+            // }
         }
         trialTimeline.push(trialData);
         });
@@ -88,41 +101,43 @@ function createTimeline(trialArray) {
 
 function run2FC(trialTimeline) {
     // input: jsPsych timeline (array)
-
     const timeline = [];
 
     let testBlock = {
         type: "html-keyboard-response",
         timeline: trialTimeline,
         choices: ['q', 'p'],
-        stimulus_duration: 2000,
-        trial_duration: 2000,
+        stimulus_duration: 4000,
+        trial_duration: 4000,
         on_finish: function(data) {
-            delete data.stimulus;
+            delete data.stimulus; // not needed in csv data
+
+            // recode button press for csv
             if(data.key_press == 80){
             data.choice = "delayed";
           } else if(data.key_press == 81){
             data.choice = "immediate";
           }
         }
-
     }
+    // add block to timeline
     timeline.push(testBlock);
 
-    /* needed:
-    post_trial_gap
-    on_finish (highlight choice etc)
-    */
-
+    // execute
     jsPsych.init({
         timeline: timeline,
+       // ad minimum RT to prevent reflex clicks
+        minimum_valid_rt: 300, 
+        // save data after experiment is finished
         on_finish: function() {
-            saveData(jsPsych.data.get().csv())
-            
+            // save data
+            saveData(jsPsych.data.get().csv());
+            // debugging: display data
             //jsPsych.data.displayData('json');
         },
+        // save remaining data if experiment is cancelled
         on_close: function(){
-            saveData(jsPsych.data.get().csv())
+            saveData(jsPsych.data.get().csv());
         }
     });
 };
@@ -138,7 +153,8 @@ function saveData(data) {
     xhr.open('POST', 'web_API/saveExp1.php');
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onload = function(){
-        console.log(this.responseText);
+        //console.log(this.responseText);
+        // redirect to next page upon success
         window.location.assign('questionnaires.html');
     };
 

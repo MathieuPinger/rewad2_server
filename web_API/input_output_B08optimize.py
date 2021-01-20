@@ -1,4 +1,7 @@
-#!/usr/lib/python-virtualenvs/rewad/bin/python
+#!C:/Anaconda/python.exe
+
+# change shebang according to system
+###!/usr/lib/python-virtualenvs/rewad/bin/python
 
 # Test script: integrate bevavioral data from website to optimization
 #def main(id):
