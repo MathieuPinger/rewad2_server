@@ -160,8 +160,8 @@ datain_reward = datain[datain["task"] == "reward"]
 datain_loss = datain[datain["task"] == "loss"]
 
 # use absolute values for loss
-datain_loss = datain_loss.assign(immOpt = -datain_loss['immOpt'])
-datain_loss = datain_loss.assign(delOpt = -datain_loss['delOpt'])
+# datain_loss = datain_loss.assign(immOpt = -datain_loss['immOpt'])
+# datain_loss = datain_loss.assign(delOpt = -datain_loss['delOpt'])
 
 # Function to estimate parameters for each df
 def estimateParameters(df, task):
@@ -207,8 +207,8 @@ params_reward = estimateParameters(datain_reward, "reward")
 params_loss = estimateParameters(datain_loss, "loss")
 
 # convert loss values to negative
-params_loss = params_loss.assign(immOpt = -params_loss['immOpt'])
-params_loss = params_loss.assign(delOpt = -params_loss['delOpt'])
+# params_loss = params_loss.assign(immOpt = -params_loss['immOpt'])
+# params_loss = params_loss.assign(delOpt = -params_loss['delOpt'])
 
 outdata = params_reward.append(params_loss)
 
