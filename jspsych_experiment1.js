@@ -336,7 +336,7 @@ function saveData(data) {
     xhr.setRequestHeader('Content-Type', 'application/json');
     
     xhr.onload = function(){
-        //window.location.assign('questionnaires.html');
+        window.location.assign('questionnaires.html');
     };
 
     xhr.send(JSON.stringify(params));
