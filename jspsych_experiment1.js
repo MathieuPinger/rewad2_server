@@ -57,8 +57,8 @@ function runExperiment(dataPath) {
         });
 
         // TESTING: only use first 5 trials
-        trialList = trialList.slice(0, 5);
-        console.log(trialList);
+        // trialList = trialList.slice(0, 5);
+        // console.log(trialList);
 
         // create jsPsych timeline
         let trialTimeline = createTimeline(trialList);
