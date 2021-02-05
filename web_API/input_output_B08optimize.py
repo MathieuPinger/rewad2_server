@@ -1,20 +1,20 @@
-#!C:/Anaconda/python.exe
+#!/usr/lib/python-virtualenvs/rewad/bin/python
 
 # change shebang according to system
-###!/usr/lib/python-virtualenvs/rewad/bin/python
+###!C:/Anaconda/python.exe
 
 # Test script: integrate bevavioral data from website to optimization
 #def main(id):
 # import libraries
 import numpy as np                          #scientific computing
-import xlsxwriter
+#import xlsxwriter
 from scipy import optimize
 import pandas as pd                         #import data
 import json
 import sys
 
 id = sys.argv[1]
-#id = "qwertzy"
+#id = "hulla"
 
 # define necessary functions
 #------------------------------------------------------------------------------
@@ -133,7 +133,7 @@ def generateParadigm(delays, r2s, pars):
 rootpath = "../data/"
 inputfile= f"{id}_exp1.csv"
 outputfile=f"{id}_params_exp2.json"
-outputfile2=f"{id}_params_exp2_z.xlsx"
+outputfile2=f"{id}_params_exp2_z.csv"
 
 # input file
 filein= rootpath + inputfile
@@ -144,69 +144,91 @@ outputxlsx= rootpath + outputfile2
 
 # load data to pandas then convert to numpy arrays
 datain = pd.read_csv(filein)
-datain = datain[["immOpt", "delOpt", "delay", "choice"]]
+datain = datain[["immOpt", "delOpt", "delay", "choice", "task"]]
 
 # drop missing values
 datain = datain.dropna()
 
 # replace missing values with zero
-#datain = datain.fillna(0)
+datain = datain.fillna(0)
 
 # choice: replace "immediate" with 1 and "delayed" with 2
 datain["choice_relabel"] = datain["choice"].replace({"immediate": 1,
                                                     "delayed": 2})
+# split in loss and reward dfs
+datain_reward = datain[datain["task"] == "reward"]
+datain_loss = datain[datain["task"] == "loss"]
 
-# create input arrays for functions
-r1 = datain[["immOpt"]].to_numpy()
-r2 = datain[["delOpt"]].to_numpy()
-delay = datain[["delay"]].to_numpy()
-a = datain[["choice_relabel"]].to_numpy()
+# use absolute values for loss
+datain_loss = datain_loss.assign(immOpt = -datain_loss['immOpt'])
+datain_loss = datain_loss.assign(delOpt = -datain_loss['delOpt'])
 
-# optimize model and return best param estimates
-beta, kappa, LL=optimizeModel(delay, r1, r2, a)
-print("inferred params: beta="+np.str(beta)+ ", kappa="+np.str(kappa)+ ", logL=" + np.str(LL))
+# Function to estimate parameters for each df
+def estimateParameters(df, task):
+    # create input arrays for functions
+    r1 = df[["immOpt"]].to_numpy()
+    r2 = df[["delOpt"]].to_numpy()
+    delay = df[["delay"]].to_numpy()
+    a = df[["choice_relabel"]].to_numpy()
+    
+    # optimize model and return best param estimates
+    beta, kappa, LL=optimizeModel(delay, r1, r2, a)
+    print("inferred params: beta="+np.str(beta)+ ", kappa="+np.str(kappa)+ ", logL=" + np.str(LL))
+    
+    # generate paradigm B based on these params and given delays and rewards
+    #(note: these also define the # of trials)
+    pars=[kappa, beta]      
+    r2s=[1, 5, 10, 15, 20]          # define delayed rewards used for task B
+    delays=[1, 2, 3, 5, 10, 20, 50] # define delays used for task B
+    delay_B, r1_B, r2_B, p_imm = generateParadigm(delays, r2s, pars)
+    
+    
+    # generate id for trials
+    trials_id = list(range(1, len(delay_B)+1))
+    
+    # pandas dataframe to json
+    delay_B = delay_B.flatten().tolist()
+    r1_B = r1_B.flatten().tolist()
+    r2_B = r2_B.flatten().tolist()
+    p_imm = p_imm.flatten().tolist()
+    
+    outdata_df = pd.DataFrame(
+        {'id': trials_id,
+        'immOpt': r1_B,
+        'delOpt': r2_B,
+        'delay': delay_B,
+        'task': task,
+        'p_imm': p_imm})
+    
+    return outdata_df
 
-# generate paradigm B based on these params and given delays and rewards
-#(note: these also define the # of trials)
-pars=[kappa, beta]      
-r2s=[1, 5, 10, 15, 20]          # define delayed rewards used for task B
-delays=[1, 2, 3, 5, 10, 20, 50] # define delays used for task B
-delay_B, r1_B, r2_B, p_imm = generateParadigm(delays, r2s, pars)
+# generate params for each task and merge to outfile
+params_reward = estimateParameters(datain_reward, "reward")
+params_loss = estimateParameters(datain_loss, "loss")
 
+# convert loss values to negative
+params_loss = params_loss.assign(immOpt = -params_loss['immOpt'])
+params_loss = params_loss.assign(delOpt = -params_loss['delOpt'])
 
-# generate id for trials
-trials_id = list(range(1, len(delay_B)+1))
+outdata = params_reward.append(params_loss)
 
-# pandas dataframe to json
-delay_B = delay_B.flatten().tolist()
-r1_B = r1_B.flatten().tolist()
-r2_B = r2_B.flatten().tolist()
-p_imm = p_imm.flatten().tolist()
+# reassign id (unique id)
+outdata['id']=np.arange(len(outdata))+1
+outdata = outdata.set_index('id')
 
-outdata_df = pd.DataFrame(
-    {'id': trials_id,
-    'immOpt': r1_B,
-    'delOpt': r2_B,
-    'delay': delay_B})
-
-outdata = outdata_df.to_json(orient = "index")
-outdata = json.loads(outdata)
+# json format (exclude probabilites for json)
+json_outdata = outdata.drop(['p_imm'], axis = 1)
+json_outdata = outdata.to_json(orient = "index")
+json_outdata = json.loads(json_outdata)
 
 # Open a json writer, and use the json.dumps()  
 # function to dump data 
 with open(outputjson, 'w', encoding='utf-8') as jsonf: 
-    jsonf.write(json.dumps(outdata, indent=4)) 
-    json.dumps(outdata, indent=4)  
+    jsonf.write(json.dumps(json_outdata, indent=4)) 
+    json.dumps(json_outdata, indent=4)  
 
-# Write CSV with added probabilites
-wb = xlsxwriter.Workbook(outputxlsx)
-ws = wb.add_worksheet('my sheet')
-ws.write_row(0, 0, ['immOpt', 'delOpt', 'delay', 'p_imm'])
-
-for i in range(len(delay_B)):
-    ws.write_row(i+1, 0, [r1_B[i],r2_B[i], delay_B[i], p_imm[i]])
-
-wb.close()
+# write csv with added probabilites
+outdata.to_csv(outputxlsx)
 
 # import sys
 # try:
