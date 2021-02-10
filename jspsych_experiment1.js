@@ -17,9 +17,9 @@ window.onload = function() {
 // path to testfile.json
 let dataPath = "testfiles/testfile.json";
 
-// run experiment on button click
-document.querySelector('#start').addEventListener(
-    'click',
+// run experiment on page load
+document.addEventListener(
+    'DOMContentLoaded',
     () => {
         runExperiment(dataPath);
 });
@@ -116,12 +116,16 @@ function run2FC(trialTimeline) {
         <p>Please read these instructions carefully.
         The experimental procedure will be demonstrated after you have read the instructions.</p>
         <p>In each trial of the experiment, you will see two amounts of money to choose from, 
-        one on the left side and one on the right side, 
-        one <b>smaller value</b> and one <b>larger value</b>. 
-        Under each option, you will also see 
-        <b>when</b> this money would be paid out to you: 
-        either <b>immediately</b> or in <b>the future</b>.
-        Your task is to choose between these amounts of money.</p>
+        one <b>smaller value</b> and one <b>larger value</b>
+        which will be displayed randomly on the left and right side, respectively. 
+        Each option will be associated with a <b>time</b> when you can receive the money,
+        which will be <b>immediately</b> for the smaller value or in <b>the future</b> for the larger value.
+        Your task is to choose between these options.</p>
+
+        <p>In some of the trials, you will choose between two <b>wins</b>, 
+        in some, you will choose between two <b>losses</b> 
+        (indicated by negative amounts of money). Each trial stands on its own, 
+        please treat every decision independently.</p>
 
         <p>All choices are <b>imaginary</b>, i.e. <b>your reimbursement 
         for this experiment will not depend on your decisions</b>.
@@ -131,23 +135,21 @@ function run2FC(trialTimeline) {
         was paid out to you in the corresponding timeframe.</p>
 
         <p>For each trial, you will have <b>5 seconds</b>
-        to decide between those two options. 
+        to decide between the two options.<br>
         Please press <b>Q to select the option on the left</b> and 
-        <b>P to select the option on the right</b>.
-        Your choice will be hightlighted with in green.</p>
+        <b>P to select the option on the right.</b>
+        Your choice will be hightlighted in green.</p>
+
         
-        <p>In some of the trials, you will choose between two <b>wins</b>, 
-        in some, you will choose between two <b>losses</b> 
-        (indicated by negative amounts of money). Each trial stands on its own, 
-        please treat every decision independently.</p>
-        
-        <p>Click the button to continue. 
-        Before the experiment starts, there will be <b>6 test trials</b> with no time limit.</p>`
+        <p>Before the experiment starts, there will be <b>6 test trials</b> with no time limit. 
+        The experiment will last approximately <b>45 minutes</b>. Halfway through the experiment, you will 
+        be asked to fill out a number of questionnaires before moving on to the second half. 
+        You will be free to take a break before moving on to the second half, if needed.</p>`
 
     let instructions = {
         type: "html-button-response",
         stimulus: instructionsText,
-        choices: ['Continue'],
+        choices: ['Continue to test trials'],
         margin_vertical: '100px',
     };
 
@@ -226,9 +228,10 @@ function run2FC(trialTimeline) {
     let finishInstructions = {
         type: "html-keyboard-response",
         stimulus: 
-            `<p>Press Q or P to continue to the experiment.</p>
-            <p>From now on, you have up 4 seconds for each decision.</p>
-            <p>After ca. 10 minutes you will be asked to fill out a number of questionnaires.</p>`,
+            `<p>From now on, you have <b>5 seconds</b> for each decision.</p>
+            <p>After ca. 20 minutes you will be asked to fill out a number of questionnaires.</p>
+            <p>Please place your left index finger on Q, and your right index finger on P.</p>
+            <p>Then press Q or P to continue to the experiment.</p>`,
         choices: ['q', 'p'],
         margin_vertical: '100px',
     };
