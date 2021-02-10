@@ -69,15 +69,7 @@
   };
 
   // INFORMATION SHEET AND CONSENT FORM
-var consentForm = {
-    type: 'survey-html-form',
-    on_load: function() {
-        btn = document.querySelector('.jspsych-btn');
-        btn.classList.remove('.jspsych-btn');
-        btn.classList.add('consent-btn');
-    },
-
-    preamble:
+  let infoText1 =
     `<div class="contact">
         <img src="logos/zi-logo-rgb.png" width="200"</img>
         <p><b>Department of Clinical Psychology</b><br>
@@ -112,8 +104,27 @@ var consentForm = {
         laboratory. This servers to further understand how aversive and rewarding events 
         are processed in decisions between immediate and future events.
         </p>
-        
-        <h3>What will happen in this study?</h3>
+    </div>`
+
+    let info1 = {
+        type: "html-button-response",
+        stimulus: infoText1,
+        choices: ['Click here to continue'],
+        margin_vertical: '100px',
+    };
+
+    let infoText2 =
+    `<div class="contact">
+        <img src="logos/zi-logo-rgb.png" width="200"</img>
+        <p><b>Department of Clinical Psychology</b><br>
+        Head:<br> Prof. Dr. Peter Kirsch<br><br>
+        Phone  +49 621 1703-6502<br>
+        Fax    +49 621 1703-6505<br>
+        <a href = "mailto: peter.kirsch@zi-mannheim.de" target="_blank">peter.kirsch@zi-mannheim.de</a><br>
+        <a href="https://www.zi-mannheim.de/" target="_blank">https://www.zi-mannheim.de/</a>
+    </div>
+    <div>
+    <h3>What will happen in this study?</h3>
         <p align='left'>
         If you agree to be in this study, you will complete the experiment online 
         using your web browser. On the next pages, the task will be explained in detail.
@@ -142,7 +153,26 @@ var consentForm = {
         participating this study. However, you are contributing to scientific progress and 
         society may benefit from the knowledge that is acquired in this experiment.
         </p>
-        
+    </div>`
+
+    let info2 = {
+        type: "html-button-response",
+        stimulus: infoText2,
+        choices: ['Click here to continue'],
+        margin_vertical: '100px',
+    };
+
+    let infoText3 =
+    `<div class="contact">
+        <img src="logos/zi-logo-rgb.png" width="200"</img>
+        <p><b>Department of Clinical Psychology</b><br>
+        Head:<br> Prof. Dr. Peter Kirsch<br><br>
+        Phone  +49 621 1703-6502<br>
+        Fax    +49 621 1703-6505<br>
+        <a href = "mailto: peter.kirsch@zi-mannheim.de" target="_blank">peter.kirsch@zi-mannheim.de</a><br>
+        <a href="https://www.zi-mannheim.de/" target="_blank">https://www.zi-mannheim.de/</a>
+    </div>
+    <div>
         <h3>What are the potential risks associated with this study?</h3>
         <p align='left'>
         Participation in this study is not associated with any risks. 
@@ -171,7 +201,33 @@ var consentForm = {
         research collaboration may handle your data, including graduate students and research assistants. 
         For all individuals that handle your data, regular data security seminars are mandatory.
         </p>
-        
+    </div>`
+
+    let info3 = {
+        type: "html-button-response",
+        stimulus: infoText3,
+        choices: ['Click here to continue'],
+        margin_vertical: '100px',
+    };
+
+    let consentForm = {
+    type: 'survey-html-form',
+    on_load: function() {
+        btn = document.querySelector('.jspsych-btn');
+        btn.classList.remove('.jspsych-btn');
+        btn.classList.add('consent-btn');
+    },
+    preamble:
+        `<div class="contact">
+        <img src="logos/zi-logo-rgb.png" width="200"</img>
+        <p><b>Department of Clinical Psychology</b><br>
+        Head:<br> Prof. Dr. Peter Kirsch<br><br>
+        Phone  +49 621 1703-6502<br>
+        Fax    +49 621 1703-6505<br>
+        <a href = "mailto: peter.kirsch@zi-mannheim.de" target="_blank">peter.kirsch@zi-mannheim.de</a><br>
+        <a href="https://www.zi-mannheim.de/" target="_blank">https://www.zi-mannheim.de/</a>
+    </div>
+    <div>
         <h3>Information about data protection</h3>
         <p align='left'>
         All data will be handled in accordance with the DSGVO 
@@ -352,7 +408,7 @@ var consentForm = {
       }
 };
 
-timeline.push(welcome, prolific_id, consentForm);
+timeline.push(welcome, prolific_id, info1, info2, info3, consentForm);
 
 /* start the experiment */
 jsPsych.init({
