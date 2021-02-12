@@ -15,7 +15,7 @@ window.onload = function() {
 };
 
 // path to testfile.json
-let dataPath = "testfiles/testfile2.json";
+let dataPath = "testfiles/testfile.json";
 
 // run experiment on page load
 document.addEventListener(
