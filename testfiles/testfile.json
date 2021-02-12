@@ -309,7 +309,7 @@
     },
     "45": {
         "id": "45",
-        "immOpt": "3125",
+        "immOpt": "3.125",
         "delOpt": "5",
         "delay": "2",
         "task": "reward"
@@ -393,7 +393,7 @@
     },
     "57": {
         "id": "57",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "10",
         "delay": "50",
         "task": "reward"
@@ -519,7 +519,7 @@
     },
     "75": {
         "id": "75",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "10",
         "delay": "5",
         "task": "reward"
@@ -855,7 +855,7 @@
     },
     "123": {
         "id": "123",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "1",
         "delay": "2",
         "task": "reward"
@@ -1485,7 +1485,7 @@
     },
     "213": {
         "id": "213",
-        "immOpt": "3125",
+        "immOpt": "3.125",
         "delOpt": "5",
         "delay": "2",
         "task": "loss"
@@ -1569,7 +1569,7 @@
     },
     "225": {
         "id": "225",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "10",
         "delay": "50",
         "task": "loss"
@@ -1695,7 +1695,7 @@
     },
     "243": {
         "id": "243",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "10",
         "delay": "5",
         "task": "loss"
@@ -2031,7 +2031,7 @@
     },
     "291": {
         "id": "291",
-        "immOpt": "625",
+        "immOpt": "0.625",
         "delOpt": "1",
         "delay": "2",
         "task": "loss"
