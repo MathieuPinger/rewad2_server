@@ -31,8 +31,8 @@ def make_json(csvFilePath, jsonFilePath):
   
 # # Decide the two file paths according to your  
 # computer system 
-csvFilePath = r'testfile.csv'
-jsonFilePath = r'testfile.json'
+csvFilePath = r'testfile2.csv'
+jsonFilePath = r'testfile2.json'
   
 # Call the make_json function 
 make_json(csvFilePath, jsonFilePath)

@@ -226,7 +226,7 @@ continueButton.addEventListener(
             "data": data
         };    
         let xhr = new XMLHttpRequest();
-        xhr.open('POST', 'web_API/saveExp1.php');
+        xhr.open('POST', 'web_API/saveExp2.php');
         xhr.setRequestHeader('Content-Type', 'application/json');
         
         xhr.onload = function(){

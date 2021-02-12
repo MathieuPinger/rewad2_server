@@ -15,7 +15,7 @@ window.onload = function() {
 };
 
 // path to testfile.json
-let dataPath = "testfiles/testfile.json";
+let dataPath = "testfiles/testfile2.json";
 
 // run experiment on page load
 document.addEventListener(
@@ -52,6 +52,10 @@ function runExperiment(dataPath) {
 
         // round trial Options to 2 digits
         trialList.forEach(trial => {
+            if(trial['task'] == "loss") {
+                trial['immOpt'] = -trial['immOpt'];
+                trial['delOpt'] = -trial['delOpt'];
+            };
             trial['immOpt'] = parseFloat(trial['immOpt']).toFixed(2);
             trial['delOpt'] = parseFloat(trial['delOpt']).toFixed(2);
         });
@@ -222,7 +226,7 @@ function run2FC(trialTimeline) {
             { data: {immOpt: '-4.00', delOpt: '-6.80', delay: '20', randomize: '0'},
                 stimulus: constructStim('0', '-4.00', '-6.80', '20') }
         ],
-        randomize_order: false
+        randomize_order: true
     };
 
     let finishInstructions = {
