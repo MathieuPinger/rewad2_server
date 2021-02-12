@@ -1,0 +1,4 @@
+"rt","key_press","immOpt","delOpt","delay","task","randomize","trial_type","trial_index","time_elapsed","internal_node_id","choice","timelineType"
+"845","80","-1.43","-10.00","2","loss","1","html-keyboard-response","20","18622","0.0-3.0-0.0","immediate","trial"
+"316","80","0.09","1.00","20","reward","1","html-keyboard-response","23","20565","0.0-3.0-0.1","immediate","trial"
+"418","80","-2.50","-10.00","1","loss","1","html-keyboard-response","26","22608","0.0-3.0-0.2","immediate","trial"

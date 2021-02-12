@@ -1,0 +1,1472 @@
+{
+    "1": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "2": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "3": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "4": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "5": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "6": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "7": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "8": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "9": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "10": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "11": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "12": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "13": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "14": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "15": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "16": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "17": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "18": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "19": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "20": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "21": {
+        "immOpt": null,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "22": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "23": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "24": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "25": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "26": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "27": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "28": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "29": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "30": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "31": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "32": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "33": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "34": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "35": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "36": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "37": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "38": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "39": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "40": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "41": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "42": {
+        "immOpt": null,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "43": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "44": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "45": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "46": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "47": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "48": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "49": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "50": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "51": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "52": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "53": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "54": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "55": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "56": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "57": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "58": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "59": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "60": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "61": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "62": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "63": {
+        "immOpt": null,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "64": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "65": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "66": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "67": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "68": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "69": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "70": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "71": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "72": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "73": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "74": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "75": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "76": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "77": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "78": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "79": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "80": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "81": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "82": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "83": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "84": {
+        "immOpt": null,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "85": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "86": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "87": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "88": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "89": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "90": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "91": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "92": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "93": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "94": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "95": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "96": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "97": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "98": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "99": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "100": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "101": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "102": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "103": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.3
+    },
+    "104": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.5
+    },
+    "105": {
+        "immOpt": null,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "reward",
+        "p_imm": 0.7
+    },
+    "106": {
+        "immOpt": 0.724866493,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "107": {
+        "immOpt": 0.7340084155,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "108": {
+        "immOpt": 0.743150338,
+        "delOpt": 1.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "109": {
+        "immOpt": 0.5706474098,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "110": {
+        "immOpt": 0.5797893323,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "111": {
+        "immOpt": 0.5889312549,
+        "delOpt": 1.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "112": {
+        "immOpt": 0.4699811059,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "113": {
+        "immOpt": 0.4791230285,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "114": {
+        "immOpt": 0.488264951,
+        "delOpt": 1.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "115": {
+        "immOpt": 0.3464881098,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "116": {
+        "immOpt": 0.3556300323,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "117": {
+        "immOpt": 0.3647719549,
+        "delOpt": 1.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "118": {
+        "immOpt": 0.2071293785,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "119": {
+        "immOpt": 0.2162713011,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "120": {
+        "immOpt": 0.2254132236,
+        "delOpt": 1.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "121": {
+        "immOpt": 0.1121048238,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "122": {
+        "immOpt": 0.1212467463,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "123": {
+        "immOpt": 0.1303886688,
+        "delOpt": 1.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "124": {
+        "immOpt": 0.0431617673,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "125": {
+        "immOpt": 0.0523036899,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "126": {
+        "immOpt": 0.0614456124,
+        "delOpt": 1.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "127": {
+        "immOpt": 3.660900155,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "128": {
+        "immOpt": 3.6700420775,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "129": {
+        "immOpt": 3.679184,
+        "delOpt": 5.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "130": {
+        "immOpt": 2.8898047391,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "131": {
+        "immOpt": 2.8989466616,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "132": {
+        "immOpt": 2.9080885841,
+        "delOpt": 5.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "133": {
+        "immOpt": 2.3864732198,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "134": {
+        "immOpt": 2.3956151424,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "135": {
+        "immOpt": 2.4047570649,
+        "delOpt": 5.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "136": {
+        "immOpt": 1.7690082391,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "137": {
+        "immOpt": 1.7781501616,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "138": {
+        "immOpt": 1.7872920842,
+        "delOpt": 5.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "139": {
+        "immOpt": 1.0722145827,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "140": {
+        "immOpt": 1.0813565053,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "141": {
+        "immOpt": 1.0904984278,
+        "delOpt": 5.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "142": {
+        "immOpt": 0.597091809,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "143": {
+        "immOpt": 0.6062337316,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "144": {
+        "immOpt": 0.6153756541,
+        "delOpt": 5.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "145": {
+        "immOpt": 0.2523765267,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "146": {
+        "immOpt": 0.2615184493,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "147": {
+        "immOpt": 0.2706603718,
+        "delOpt": 5.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "148": {
+        "immOpt": 7.3309422325,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "149": {
+        "immOpt": 7.340084155,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "150": {
+        "immOpt": 7.3492260776,
+        "delOpt": 10.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "151": {
+        "immOpt": 5.7887514007,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "152": {
+        "immOpt": 5.7978933232,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "153": {
+        "immOpt": 5.8070352458,
+        "delOpt": 10.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "154": {
+        "immOpt": 4.7820883622,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "155": {
+        "immOpt": 4.7912302848,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "156": {
+        "immOpt": 4.8003722073,
+        "delOpt": 10.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "157": {
+        "immOpt": 3.5471584007,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "158": {
+        "immOpt": 3.5563003233,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "159": {
+        "immOpt": 3.5654422458,
+        "delOpt": 10.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "160": {
+        "immOpt": 2.153571088,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "161": {
+        "immOpt": 2.1627130106,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "162": {
+        "immOpt": 2.1718549331,
+        "delOpt": 10.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "163": {
+        "immOpt": 1.2033255406,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "164": {
+        "immOpt": 1.2124674632,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "165": {
+        "immOpt": 1.2216093857,
+        "delOpt": 10.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "166": {
+        "immOpt": 0.513894976,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "167": {
+        "immOpt": 0.5230368986,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "168": {
+        "immOpt": 0.5321788211,
+        "delOpt": 10.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "169": {
+        "immOpt": 11.00098431,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "170": {
+        "immOpt": 11.0101262325,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "171": {
+        "immOpt": 11.0192681551,
+        "delOpt": 15.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "172": {
+        "immOpt": 8.6876980623,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "173": {
+        "immOpt": 8.6968399848,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "174": {
+        "immOpt": 8.7059819074,
+        "delOpt": 15.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "175": {
+        "immOpt": 7.1777035046,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "176": {
+        "immOpt": 7.1868454271,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "177": {
+        "immOpt": 7.1959873497,
+        "delOpt": 15.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "178": {
+        "immOpt": 5.3253085624,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "179": {
+        "immOpt": 5.3344504849,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "180": {
+        "immOpt": 5.3435924074,
+        "delOpt": 15.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "181": {
+        "immOpt": 3.2349275933,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "182": {
+        "immOpt": 3.2440695158,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "183": {
+        "immOpt": 3.2532114384,
+        "delOpt": 15.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "184": {
+        "immOpt": 1.8095592722,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "185": {
+        "immOpt": 1.8187011947,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "186": {
+        "immOpt": 1.8278431173,
+        "delOpt": 15.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "187": {
+        "immOpt": 0.7754134253,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "188": {
+        "immOpt": 0.7845553478,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "189": {
+        "immOpt": 0.7936972704,
+        "delOpt": 15.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "190": {
+        "immOpt": 14.6710263875,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "191": {
+        "immOpt": 14.68016831,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "192": {
+        "immOpt": 14.6893102326,
+        "delOpt": 20.0,
+        "delay": 1.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "193": {
+        "immOpt": 11.5866447239,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "194": {
+        "immOpt": 11.5957866465,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "195": {
+        "immOpt": 11.604928569,
+        "delOpt": 20.0,
+        "delay": 2.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "196": {
+        "immOpt": 9.573318647,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "197": {
+        "immOpt": 9.5824605695,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "198": {
+        "immOpt": 9.591602492,
+        "delOpt": 20.0,
+        "delay": 3.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "199": {
+        "immOpt": 7.103458724,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "200": {
+        "immOpt": 7.1126006465,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "201": {
+        "immOpt": 7.1217425691,
+        "delOpt": 20.0,
+        "delay": 5.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "202": {
+        "immOpt": 4.3162840986,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "203": {
+        "immOpt": 4.3254260211,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "204": {
+        "immOpt": 4.3345679437,
+        "delOpt": 20.0,
+        "delay": 10.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "205": {
+        "immOpt": 2.4157930038,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "206": {
+        "immOpt": 2.4249349263,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "207": {
+        "immOpt": 2.4340768488,
+        "delOpt": 20.0,
+        "delay": 20.0,
+        "task": "loss",
+        "p_imm": 0.7
+    },
+    "208": {
+        "immOpt": 1.0369318746,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.3
+    },
+    "209": {
+        "immOpt": 1.0460737971,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.5
+    },
+    "210": {
+        "immOpt": 1.0552157196,
+        "delOpt": 20.0,
+        "delay": 50.0,
+        "task": "loss",
+        "p_imm": 0.7
+    }
+}
