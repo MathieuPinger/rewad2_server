@@ -134,6 +134,7 @@ rootpath = "../data/"
 inputfile= f"{id}_exp1.csv"
 outputfile=f"{id}_params_exp2.json"
 outputfile2=f"{id}_params_exp2_z.csv"
+paramsfile=f"{id}_kappa.csv"
 
 # input file
 filein= rootpath + inputfile
@@ -141,6 +142,7 @@ filein= rootpath + inputfile
 # output files
 outputjson= rootpath + outputfile
 outputxlsx= rootpath + outputfile2
+outputparams = rootpath + paramsfile
 
 # load data to pandas then convert to numpy arrays
 datain = pd.read_csv(filein)
@@ -200,17 +202,24 @@ def estimateParameters(df, task):
         'task': task,
         'p_imm': p_imm})
     
-    return outdata_df
+    params_df = pd.DataFrame(
+        {'subject': id,
+        'task': task,
+        'beta': np.str(beta),
+        'kappa': np.str(kappa)}
+    )
+    return outdata_df, params_df
 
 # generate params for each task and merge to outfile
-params_reward = estimateParameters(datain_reward, "reward")
-params_loss = estimateParameters(datain_loss, "loss")
+outdata_reward, params_reward = estimateParameters(datain_reward, "reward")
+outdata_loss, params_loss = estimateParameters(datain_loss, "loss")
 
 # convert loss values to negative
 # params_loss = params_loss.assign(immOpt = -params_loss['immOpt'])
 # params_loss = params_loss.assign(delOpt = -params_loss['delOpt'])
 
-outdata = params_reward.append(params_loss)
+outdata = outdata_reward.append(outdata_loss)
+params = params_reward.append(params_loss)
 
 # reassign id (unique id)
 outdata['id']=np.arange(len(outdata))+1
@@ -221,7 +230,7 @@ json_outdata = outdata.drop(['p_imm'], axis = 1)
 json_outdata = outdata.to_json(orient = "index")
 json_outdata = json.loads(json_outdata)
 
-# Open a json writer, and use the json.dumps()  
+# Open a json writer, and use the json.dumps()
 # function to dump data 
 with open(outputjson, 'w', encoding='utf-8') as jsonf: 
     jsonf.write(json.dumps(json_outdata, indent=4)) 
@@ -229,6 +238,9 @@ with open(outputjson, 'w', encoding='utf-8') as jsonf:
 
 # write csv with added probabilites
 outdata.to_csv(outputxlsx)
+
+# write kappa/beta to csv
+params.to_csv(outputparams)
 
 # import sys
 # try:
