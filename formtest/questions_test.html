@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaires</title>
+    <link href="questions_style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="surveyInfo">
+        In the following survey, we will ask you some questions about your use fo alcohol. 
+        Tick the box that best describes your answer to each question. 
+        Your answers will remain confidential so please be honest.
+    </div>
+
+    <form class="survey" id="audit">
+        <!-- Using Select Menu -->
+        <div class="form-group">
+            <label for="audit1">
+                How often do you have a drink containing alcohol?
+            </label>
+            <select name="audit1" id="audit1" required>
+                <option value="Never">Never</option>
+                <option value="Monthly or less">Monthly or less</option>
+                <option value="2 or 4 times a month">2 to 4 times a month</option>
+                <option value="2 to 3 times a week">2 to 3 times a week</option>
+                <option value="4 or more times a week">4 or more times a week</option>
+            </select>
+        </div>
+
+        <!-- Using Radio Buttons & Table -->
+        <div class="form-table">
+            <div class="tableRow">
+                <div class="tableQuestion">How often do you have a drink containing alcohol?</div>
+                <div class="tableCell">
+                    <input type="radio" name="audit1" id="audit1_1" value="audit1_1">
+                    <label for="audit1_1">Never</label>
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="audit1" id="audit1_2" value="audit1_2">
+                    <label for="audit1_2">Monthly or less</label>
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="audit1" id="audit1_3" value="audit1_3">
+                    <label for="audit1_3">2 to 4 times a month</label>
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="audit1" id="audit1_4" value="audit1_4">
+                    <label for="audit1_4">2 to 3 times a week</label>
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="audit1" id="audit1_5" value="audit1_5">
+                    <label for="audit1_5">4 or more times a week</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Using Radio Buttons -->
+        <!-- AUDIT 1 -->
+        <div class="form-group">
+            <div class="formQuestion">How often do you have a drink containing alcohol?</div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit1" id="audit1_1" value="audit1_1">
+                    <label for="audit1_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit1" id="audit1_2" value="audit1_2">
+                    <label for="audit1_2">Monthly or less</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit1" id="audit1_3" value="audit1_3">
+                    <label for="audit1_3">2 to 4 times a month</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit1" id="audit1_4" value="audit1_4">
+                    <label for="audit1_4">2 to 3 times a week</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit1" id="audit1_5" value="audit1_5">
+                    <label for="audit1_5">4 or more times a week</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 2 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How many drinks containing alcohol do you have on a typical day when you are drinking?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit2" id="audit2_1" value="audit2_1">
+                    <label for="audit2_1">1 or 2</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit2" id="audit2_2" value="audit2_2">
+                    <label for="audit2_2">3 or 4</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit2" id="audit2_3" value="audit2_3">
+                    <label for="audit2_3">5 or 6</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit2" id="audit2_4" value="audit2_4">
+                    <label for="audit2_4">7 to 9</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit2" id="audit2_5" value="audit2_5">
+                    <label for="audit2_5">10 or more</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 3 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often do you have 5 or more drinks on one occasion?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit3" id="audit3_1" value="audit3_1">
+                    <label for="audit3_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit3" id="audit3_2" value="audit3_2">
+                    <label for="audit3_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit3" id="audit3_3" value="audit3_3">
+                    <label for="audit3_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit3" id="audit3_4" value="audit3_4">
+                    <label for="audit3_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit2" id="audit3_5" value="audit3_5">
+                    <label for="audit3_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 4 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often during the last year have you found that you were not able to stop drinking
+                once you had started?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit4" id="audit4_1" value="audit4_1">
+                    <label for="audit4_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit4" id="audit4_2" value="audit4_2">
+                    <label for="audit4_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit4" id="audit4_3" value="audit4_3">
+                    <label for="audit4_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit4" id="audit4_4" value="audit4_4">
+                    <label for="audit4_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit4" id="audit4_5" value="audit4_5">
+                    <label for="audit4_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 5 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often during the last year have you failed to do what was normally expected 
+                of you because of drinking?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit5" id="audit5_1" value="audit5_1">
+                    <label for="audit5_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit5" id="audit5_2" value="audit5_2">
+                    <label for="audit5_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit5" id="audit5_3" value="audit5_3">
+                    <label for="audit5_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit5" id="audit5_4" value="audit5_4">
+                    <label for="audit5_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit5" id="audit5_5" value="audit5_5">
+                    <label for="audit5_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 6 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often during the last year have you needed a first drink in the morning 
+                to get yourself going after a heavy drinking session?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit6" id="audit6_1" value="audit6_1">
+                    <label for="audit6_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit6" id="audit6_2" value="audit6_2">
+                    <label for="audit6_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit6" id="audit6_3" value="audit6_3">
+                    <label for="audit6_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit6" id="audit6_4" value="audit6_4">
+                    <label for="audit6_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit6" id="audit6_5" value="audit6_5">
+                    <label for="audit6_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 7 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often during the last year have you had a feeling of guilt or remorse 
+                after drinking?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit7" id="audit7_1" value="audit7_1">
+                    <label for="audit7_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit7" id="audit7_2" value="audit7_2">
+                    <label for="audit7_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit7" id="audit7_3" value="audit7_3">
+                    <label for="audit7_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit7" id="audit7_4" value="audit7_4">
+                    <label for="audit7_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit7" id="audit7_5" value="audit7_5">
+                    <label for="audit7_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 8 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                How often during the last year have you been unable to remember what happened the night 
+                before because of your drinking?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit8" id="audit8_1" value="audit8_1">
+                    <label for="audit8_1">Never</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit8" id="audit8_2" value="audit8_2">
+                    <label for="audit8_2">Less than monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit8" id="audit8_3" value="audit8_3">
+                    <label for="audit8_3">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit8" id="audit8_4" value="audit8_4">
+                    <label for="audit8_4">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit8" id="audit8_5" value="audit8_5">
+                    <label for="audit8_5">Daily or almost daily</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 9 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                Have you or someone else been injured because of your drinking?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit9" id="audit9_1" value="audit9_1">
+                    <label for="audit9_1">No</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit9" id="audit9_2" value="audit9_2">
+                    <label for="audit9_2">Yes, but not in the last year</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit9" id="audit9_3" value="audit9_3">
+                    <label for="audit9_3">Yes, during the last year</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDIT 10 -->
+        <div class="form-group">
+            <div class="formQuestion">
+                Has a relative, friend, doctor, or other health care worker been concerned about 
+                your drinking or suggested you cut down?
+            </div>
+            <div class="formOptions">
+                <div>
+                    <input type="radio" name="audit10" id="audit10_1" value="audit10_1">
+                    <label for="audit10_1">No</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit10" id="audit10_2" value="audit10_2">
+                    <label for="audit10_2">Yes, but not in the last year</label>
+                </div>
+                <div>
+                    <input type="radio" name="audit10" id="audit10_3" value="audit10_3">
+                    <label for="audit10_3">Yes, during the last year</label>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <form class="survey" id="BIS">
+        <div class="form-table">
+            <div class="tableRow">
+                <div class="tableCell"></div>
+                <div class="tableCell">Never/Rarely</div>
+                <div class="tableCell">Sometimes</div>
+                <div class="tableCell">Often</div>
+                <div class="tableCell">Always</div>
+            </div>
+            <!-- BIS1 -->
+            <div class="tableRow">
+                <div class="tableCell">I plan tasks carefully.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis1" id="bis1_1" value="bis1_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis1" id="bis1_2" value="bis1_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis1" id="bis1_3" value="bis1_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis1" id="bis1_4" value="bis1_4">
+                </div>
+            </div>
+            <!-- BIS2 -->
+            <div class="tableRow">
+                <div class="tableCell">I do things without thinking.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis2" id="bis2_1" value="bis2_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis2" id="bis2_2" value="bis2_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis2" id="bis2_3" value="bis2_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis2" id="bis2_4" value="bis2_4">
+                </div>
+            </div>
+            <!-- BIS3 -->
+            <div class="tableRow">
+                <div class="tableCell">I don’t "pay attention."</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis3" id="bis3_1" value="bis3_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis3" id="bis3_2" value="bis3_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis3" id="bis3_3" value="bis3_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis3" id="bis3_4" value="bis3_4">
+                </div>
+            </div>
+            <!-- BIS4 -->
+            <div class="tableRow">
+                <div class="tableCell">I concentrate easily.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis4" id="bis4_1" value="bis4_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis4" id="bis4_2" value="bis4_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis4" id="bis4_3" value="bis4_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis4" id="bis4_4" value="bis4_4">
+                </div>
+            </div>
+            <!-- BIS5 -->
+            <div class="tableRow">
+                <div class="tableCell">I save regularly.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis5" id="bis5_1" value="bis5_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis5" id="bis5_2" value="bis5_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis5" id="bis5_3" value="bis5_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis5" id="bis5_4" value="bis5_4">
+                </div>
+            </div>
+            <!-- BIS6 -->
+            <div class="tableRow">
+                <div class="tableCell">I "squirm" at plays or lectures.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis6" id="bis6_1" value="bis6_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis6" id="bis6_2" value="bis6_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis6" id="bis6_3" value="bis6_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis6" id="bis6_4" value="bis6_4">
+                </div>
+            </div>
+            <!-- BIS7 -->
+            <div class="tableRow">
+                <div class="tableCell">I am a careful thinker.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis7" id="bis7_1" value="bis7_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis7" id="bis7_2" value="bis7_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis7" id="bis7_3" value="bis7_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis7" id="bis7_4" value="bis7_4">
+                </div>
+            </div>
+            <!-- BIS8 -->
+            <div class="tableRow">
+                <div class="tableCell">I plan for job security.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis8" id="bis8_1" value="bis8_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis8" id="bis8_2" value="bis8_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis8" id="bis8_3" value="bis8_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis8" id="bis8_4" value="bis8_4">
+                </div>
+            </div>
+            <!-- BIS9 -->
+            <div class="tableRow">
+                <div class="tableCell">I say things without thinking.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis9" id="bis9_1" value="bis9_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis9" id="bis9_2" value="bis9_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis9" id="bis9_3" value="bis9_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis9" id="bis9_4" value="bis9_4">
+                </div>
+            </div>
+            <!-- BIS10 -->
+            <div class="tableRow">
+                <div class="tableCell">I act "on impulse."</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis10" id="bis10_1" value="bis10_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis10" id="bis10_2" value="bis10_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis10" id="bis10_3" value="bis10_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis10" id="bis10_4" value="bis10_4">
+                </div>
+            </div>
+            <!-- BIS11 -->
+            <div class="tableRow">
+                <div class="tableCell">I get easily bored when solving thought problems.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis11" id="bis11_1" value="bis11_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis11" id="bis11_2" value="bis11_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis11" id="bis11_3" value="bis11_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis11" id="bis11_4" value="bis11_4">
+                </div>
+            </div>
+            <!-- BIS12 -->
+            <div class="tableRow">
+                <div class="tableCell">I act on the spur of the moment.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis12" id="bis12_1" value="bis12_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis12" id="bis12_2" value="bis12_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis12" id="bis12_3" value="bis12_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis12" id="bis12_4" value="bis12_4">
+                </div>
+            </div>
+            <!-- BIS13 -->
+            <div class="tableRow">
+                <div class="tableCell">I buy things on impulse.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis13" id="bis13_1" value="bis13_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis13" id="bis13_2" value="bis13_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis13" id="bis13_3" value="bis13_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis13" id="bis13_4" value="bis13_4">
+                </div>
+            </div>
+            <!-- BIS14 -->
+            <div class="tableRow">
+                <div class="tableCell">I am restless at the theater or lectures.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis14" id="bis14_1" value="bis14_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis14" id="bis14_2" value="bis14_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis14" id="bis14_3" value="bis14_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis14" id="bis14_4" value="bis14_4">
+                </div>
+            </div>
+            <!-- BIS15 -->
+            <div class="tableRow">
+                <div class="tableCell">I am future oriented.</div>
+                <div class="tableCell">
+                    <input type="radio" name="bis15" id="bis15_1" value="bis15_1">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis15" id="bis15_2" value="bis15_2">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis15" id="bis15_3" value="bis15_3">
+                </div>
+                <div class="tableCell">
+                    <input type="radio" name="bis15" id="bis15_4" value="bis15_4">
+                </div>
+            </div>
+
+        </div>
+
+
+    </form>
+</div>
+    
+</body>
+</html>
