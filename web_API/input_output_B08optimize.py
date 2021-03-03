@@ -13,8 +13,8 @@ import pandas as pd                         #import data
 import json
 import sys
 
-id = sys.argv[1]
-#id = "hulla"
+#id = sys.argv[1]
+id = "mathieutest"
 
 # define necessary functions
 #------------------------------------------------------------------------------
@@ -206,7 +206,8 @@ def estimateParameters(df, task):
         {'subject': id,
         'task': task,
         'beta': np.str(beta),
-        'kappa': np.str(kappa)}
+        'kappa': np.str(kappa)},
+        index=[0]
     )
     return outdata_df, params_df
 
