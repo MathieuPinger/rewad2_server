@@ -1,6 +1,6 @@
 {
     "1": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 1.0,
         "task": "reward",
@@ -14,14 +14,14 @@
         "p_imm": 0.5
     },
     "3": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 1.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "4": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 2.0,
         "task": "reward",
@@ -35,14 +35,14 @@
         "p_imm": 0.5
     },
     "6": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 2.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "7": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 3.0,
         "task": "reward",
@@ -56,14 +56,14 @@
         "p_imm": 0.5
     },
     "9": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 3.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "10": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 5.0,
         "task": "reward",
@@ -77,14 +77,14 @@
         "p_imm": 0.5
     },
     "12": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 5.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "13": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 10.0,
         "task": "reward",
@@ -98,14 +98,14 @@
         "p_imm": 0.5
     },
     "15": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 10.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "16": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 20.0,
         "task": "reward",
@@ -119,14 +119,14 @@
         "p_imm": 0.5
     },
     "18": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 20.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "19": {
-        "immOpt": -1.9099325376,
+        "immOpt": -1.909932424,
         "delOpt": 1.0,
         "delay": 50.0,
         "task": "reward",
@@ -140,14 +140,14 @@
         "p_imm": 0.5
     },
     "21": {
-        "immOpt": 3.9099325376,
+        "immOpt": 3.909932424,
         "delOpt": 1.0,
         "delay": 50.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "22": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 1.0,
         "task": "reward",
@@ -161,14 +161,14 @@
         "p_imm": 0.5
     },
     "24": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 1.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "25": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 2.0,
         "task": "reward",
@@ -182,14 +182,14 @@
         "p_imm": 0.5
     },
     "27": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 2.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "28": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 3.0,
         "task": "reward",
@@ -203,14 +203,14 @@
         "p_imm": 0.5
     },
     "30": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 3.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "31": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 5.0,
         "task": "reward",
@@ -224,14 +224,14 @@
         "p_imm": 0.5
     },
     "33": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 5.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "34": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 10.0,
         "task": "reward",
@@ -245,14 +245,14 @@
         "p_imm": 0.5
     },
     "36": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 10.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "37": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 20.0,
         "task": "reward",
@@ -266,14 +266,14 @@
         "p_imm": 0.5
     },
     "39": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 20.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "40": {
-        "immOpt": 2.0900674624,
+        "immOpt": 2.090067576,
         "delOpt": 5.0,
         "delay": 50.0,
         "task": "reward",
@@ -287,14 +287,14 @@
         "p_imm": 0.5
     },
     "42": {
-        "immOpt": 7.9099325376,
+        "immOpt": 7.909932424,
         "delOpt": 5.0,
         "delay": 50.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "43": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 1.0,
         "task": "reward",
@@ -308,14 +308,14 @@
         "p_imm": 0.5
     },
     "45": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 1.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "46": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 2.0,
         "task": "reward",
@@ -329,14 +329,14 @@
         "p_imm": 0.5
     },
     "48": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 2.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "49": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 3.0,
         "task": "reward",
@@ -350,14 +350,14 @@
         "p_imm": 0.5
     },
     "51": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 3.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "52": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 5.0,
         "task": "reward",
@@ -371,14 +371,14 @@
         "p_imm": 0.5
     },
     "54": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 5.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "55": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 10.0,
         "task": "reward",
@@ -392,14 +392,14 @@
         "p_imm": 0.5
     },
     "57": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 10.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "58": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 20.0,
         "task": "reward",
@@ -413,14 +413,14 @@
         "p_imm": 0.5
     },
     "60": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 20.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "61": {
-        "immOpt": 7.0900674624,
+        "immOpt": 7.090067576,
         "delOpt": 10.0,
         "delay": 50.0,
         "task": "reward",
@@ -434,14 +434,14 @@
         "p_imm": 0.5
     },
     "63": {
-        "immOpt": 12.9099325376,
+        "immOpt": 12.909932424,
         "delOpt": 10.0,
         "delay": 50.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "64": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 1.0,
         "task": "reward",
@@ -455,14 +455,14 @@
         "p_imm": 0.5
     },
     "66": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 1.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "67": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 2.0,
         "task": "reward",
@@ -476,14 +476,14 @@
         "p_imm": 0.5
     },
     "69": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 2.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "70": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 3.0,
         "task": "reward",
@@ -497,14 +497,14 @@
         "p_imm": 0.5
     },
     "72": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 3.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "73": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 5.0,
         "task": "reward",
@@ -518,14 +518,14 @@
         "p_imm": 0.5
     },
     "75": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 5.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "76": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 10.0,
         "task": "reward",
@@ -539,14 +539,14 @@
         "p_imm": 0.5
     },
     "78": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 10.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "79": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 20.0,
         "task": "reward",
@@ -560,14 +560,14 @@
         "p_imm": 0.5
     },
     "81": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 20.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "82": {
-        "immOpt": 12.0900674624,
+        "immOpt": 12.090067576,
         "delOpt": 15.0,
         "delay": 50.0,
         "task": "reward",
@@ -581,14 +581,14 @@
         "p_imm": 0.5
     },
     "84": {
-        "immOpt": 17.9099325376,
+        "immOpt": 17.909932424,
         "delOpt": 15.0,
         "delay": 50.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "85": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 1.0,
         "task": "reward",
@@ -602,14 +602,14 @@
         "p_imm": 0.5
     },
     "87": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 1.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "88": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 2.0,
         "task": "reward",
@@ -623,14 +623,14 @@
         "p_imm": 0.5
     },
     "90": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 2.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "91": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 3.0,
         "task": "reward",
@@ -644,14 +644,14 @@
         "p_imm": 0.5
     },
     "93": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 3.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "94": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 5.0,
         "task": "reward",
@@ -665,14 +665,14 @@
         "p_imm": 0.5
     },
     "96": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 5.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "97": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 10.0,
         "task": "reward",
@@ -686,14 +686,14 @@
         "p_imm": 0.5
     },
     "99": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 10.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "100": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 20.0,
         "task": "reward",
@@ -707,14 +707,14 @@
         "p_imm": 0.5
     },
     "102": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 20.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "103": {
-        "immOpt": 17.0900674624,
+        "immOpt": 17.090067576,
         "delOpt": 20.0,
         "delay": 50.0,
         "task": "reward",
@@ -728,742 +728,742 @@
         "p_imm": 0.5
     },
     "105": {
-        "immOpt": 22.9099325376,
+        "immOpt": 22.909932424,
         "delOpt": 20.0,
         "delay": 50.0,
         "task": "reward",
         "p_imm": 0.7
     },
     "106": {
-        "immOpt": 0.5903915289,
+        "immOpt": 0.6677290215,
         "delOpt": 1.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "107": {
-        "immOpt": 0.6008989637,
+        "immOpt": 0.6799403883,
         "delOpt": 1.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "108": {
-        "immOpt": 0.6114063986,
+        "immOpt": 0.6921517552,
         "delOpt": 1.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "109": {
-        "immOpt": 0.418981893,
+        "immOpt": 0.5028717266,
         "delOpt": 1.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "110": {
-        "immOpt": 0.4294893279,
+        "immOpt": 0.5150830935,
         "delOpt": 1.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "111": {
-        "immOpt": 0.4399967628,
+        "immOpt": 0.5272944603,
         "delOpt": 1.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "112": {
-        "immOpt": 0.3236591045,
+        "immOpt": 0.402356293,
         "delOpt": 1.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "113": {
-        "immOpt": 0.3341665394,
+        "immOpt": 0.4145676599,
         "delOpt": 1.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "114": {
-        "immOpt": 0.3446739743,
+        "immOpt": 0.4267790267,
         "delOpt": 1.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "115": {
-        "immOpt": 0.2209276308,
+        "immOpt": 0.2859769166,
         "delOpt": 1.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "116": {
-        "immOpt": 0.2314350656,
+        "immOpt": 0.2981882835,
         "delOpt": 1.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "117": {
-        "immOpt": 0.2419425005,
+        "immOpt": 0.3103996503,
         "delOpt": 1.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "118": {
-        "immOpt": 0.1203529373,
+        "immOpt": 0.1630067731,
         "delOpt": 1.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "119": {
-        "immOpt": 0.1308603722,
+        "immOpt": 0.1752181399,
         "delOpt": 1.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "120": {
-        "immOpt": 0.1413678071,
+        "immOpt": 0.1874295068,
         "delOpt": 1.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "121": {
-        "immOpt": 0.0595035853,
+        "immOpt": 0.0838100502,
         "delOpt": 1.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "122": {
-        "immOpt": 0.0700110202,
+        "immOpt": 0.096021417,
         "delOpt": 1.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "123": {
-        "immOpt": 0.0805184551,
+        "immOpt": 0.1082327839,
         "delOpt": 1.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "124": {
-        "immOpt": 0.0187249256,
+        "immOpt": 0.0285453082,
         "delOpt": 1.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "125": {
-        "immOpt": 0.0292323605,
+        "immOpt": 0.040756675,
         "delOpt": 1.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "126": {
-        "immOpt": 0.0397397954,
+        "immOpt": 0.0529680419,
         "delOpt": 1.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "127": {
-        "immOpt": 2.9939873839,
+        "immOpt": 3.3874905749,
         "delOpt": 5.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "128": {
-        "immOpt": 3.0044948187,
+        "immOpt": 3.3997019417,
         "delOpt": 5.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "129": {
-        "immOpt": 3.0150022536,
+        "immOpt": 3.4119133086,
         "delOpt": 5.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "130": {
-        "immOpt": 2.1369392047,
+        "immOpt": 2.5632041005,
         "delOpt": 5.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "131": {
-        "immOpt": 2.1474466396,
+        "immOpt": 2.5754154674,
         "delOpt": 5.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "132": {
-        "immOpt": 2.1579540745,
+        "immOpt": 2.5876268342,
         "delOpt": 5.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "133": {
-        "immOpt": 1.6603252622,
+        "immOpt": 2.0606269326,
         "delOpt": 5.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "134": {
-        "immOpt": 1.6708326971,
+        "immOpt": 2.0728382994,
         "delOpt": 5.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "135": {
-        "immOpt": 1.681340132,
+        "immOpt": 2.0850496663,
         "delOpt": 5.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "136": {
-        "immOpt": 1.1466678933,
+        "immOpt": 1.4787300506,
         "delOpt": 5.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "137": {
-        "immOpt": 1.1571753282,
+        "immOpt": 1.4909414175,
         "delOpt": 5.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "138": {
-        "immOpt": 1.1676827631,
+        "immOpt": 1.5031527843,
         "delOpt": 5.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "139": {
-        "immOpt": 0.6437944263,
+        "immOpt": 0.8638793328,
         "delOpt": 5.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "140": {
-        "immOpt": 0.6543018612,
+        "immOpt": 0.8760906997,
         "delOpt": 5.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "141": {
-        "immOpt": 0.6648092961,
+        "immOpt": 0.8883020665,
         "delOpt": 5.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "142": {
-        "immOpt": 0.3395476661,
+        "immOpt": 0.4678957182,
         "delOpt": 5.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "143": {
-        "immOpt": 0.350055101,
+        "immOpt": 0.4801070851,
         "delOpt": 5.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "144": {
-        "immOpt": 0.3605625359,
+        "immOpt": 0.4923184519,
         "delOpt": 5.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "145": {
-        "immOpt": 0.1356543677,
+        "immOpt": 0.1915720082,
         "delOpt": 5.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "146": {
-        "immOpt": 0.1461618026,
+        "immOpt": 0.2037833751,
         "delOpt": 5.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "147": {
-        "immOpt": 0.1566692375,
+        "immOpt": 0.2159947419,
         "delOpt": 5.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "148": {
-        "immOpt": 5.9984822026,
+        "immOpt": 6.7871925166,
         "delOpt": 10.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "149": {
-        "immOpt": 6.0089896375,
+        "immOpt": 6.7994038835,
         "delOpt": 10.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "150": {
-        "immOpt": 6.0194970724,
+        "immOpt": 6.8116152503,
         "delOpt": 10.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "151": {
-        "immOpt": 4.2843858443,
+        "immOpt": 5.1386195679,
         "delOpt": 10.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "152": {
-        "immOpt": 4.2948932792,
+        "immOpt": 5.1508309348,
         "delOpt": 10.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "153": {
-        "immOpt": 4.3054007141,
+        "immOpt": 5.1630423016,
         "delOpt": 10.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "154": {
-        "immOpt": 3.3311579593,
+        "immOpt": 4.133465232,
         "delOpt": 10.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "155": {
-        "immOpt": 3.3416653942,
+        "immOpt": 4.1456765989,
         "delOpt": 10.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "156": {
-        "immOpt": 3.3521728291,
+        "immOpt": 4.1578879657,
         "delOpt": 10.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "157": {
-        "immOpt": 2.3038432216,
+        "immOpt": 2.9696714681,
         "delOpt": 10.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "158": {
-        "immOpt": 2.3143506565,
+        "immOpt": 2.9818828349,
         "delOpt": 10.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "159": {
-        "immOpt": 2.3248580914,
+        "immOpt": 2.9940942018,
         "delOpt": 10.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "160": {
-        "immOpt": 1.2980962876,
+        "immOpt": 1.7399700325,
         "delOpt": 10.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "161": {
-        "immOpt": 1.3086037225,
+        "immOpt": 1.7521813994,
         "delOpt": 10.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "162": {
-        "immOpt": 1.3191111574,
+        "immOpt": 1.7643927662,
         "delOpt": 10.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "163": {
-        "immOpt": 0.6896027672,
+        "immOpt": 0.9480028032,
         "delOpt": 10.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "164": {
-        "immOpt": 0.7001102021,
+        "immOpt": 0.9602141701,
         "delOpt": 10.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "165": {
-        "immOpt": 0.710617637,
+        "immOpt": 0.972425537,
         "delOpt": 10.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "166": {
-        "immOpt": 0.2818161702,
+        "immOpt": 0.3953553833,
         "delOpt": 10.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "167": {
-        "immOpt": 0.2923236051,
+        "immOpt": 0.4075667502,
         "delOpt": 10.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "168": {
-        "immOpt": 0.30283104,
+        "immOpt": 0.419778117,
         "delOpt": 10.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "169": {
-        "immOpt": 9.0029770214,
+        "immOpt": 10.1868944583,
         "delOpt": 15.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "170": {
-        "immOpt": 9.0134844562,
+        "immOpt": 10.1991058252,
         "delOpt": 15.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "171": {
-        "immOpt": 9.0239918911,
+        "immOpt": 10.211317192,
         "delOpt": 15.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "172": {
-        "immOpt": 6.4318324839,
+        "immOpt": 7.7140350353,
         "delOpt": 15.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "173": {
-        "immOpt": 6.4423399188,
+        "immOpt": 7.7262464022,
         "delOpt": 15.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "174": {
-        "immOpt": 6.4528473537,
+        "immOpt": 7.738457769,
         "delOpt": 15.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "175": {
-        "immOpt": 5.0019906564,
+        "immOpt": 6.2063035315,
         "delOpt": 15.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "176": {
-        "immOpt": 5.0124980913,
+        "immOpt": 6.2185148983,
         "delOpt": 15.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "177": {
-        "immOpt": 5.0230055262,
+        "immOpt": 6.2307262652,
         "delOpt": 15.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "178": {
-        "immOpt": 3.4610185498,
+        "immOpt": 4.4606128855,
         "delOpt": 15.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "179": {
-        "immOpt": 3.4715259847,
+        "immOpt": 4.4728242524,
         "delOpt": 15.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "180": {
-        "immOpt": 3.4820334196,
+        "immOpt": 4.4850356192,
         "delOpt": 15.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "181": {
-        "immOpt": 1.9523981488,
+        "immOpt": 2.6160607322,
         "delOpt": 15.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "182": {
-        "immOpt": 1.9629055837,
+        "immOpt": 2.6282720991,
         "delOpt": 15.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "183": {
-        "immOpt": 1.9734130186,
+        "immOpt": 2.6404834659,
         "delOpt": 15.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "184": {
-        "immOpt": 1.0396578682,
+        "immOpt": 1.4281098883,
         "delOpt": 15.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "185": {
-        "immOpt": 1.0501653031,
+        "immOpt": 1.4403212552,
         "delOpt": 15.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "186": {
-        "immOpt": 1.060672738,
+        "immOpt": 1.452532622,
         "delOpt": 15.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "187": {
-        "immOpt": 0.4279779728,
+        "immOpt": 0.5991387584,
         "delOpt": 15.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "188": {
-        "immOpt": 0.4384854077,
+        "immOpt": 0.6113501253,
         "delOpt": 15.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "189": {
-        "immOpt": 0.4489928426,
+        "immOpt": 0.6235614921,
         "delOpt": 15.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "190": {
-        "immOpt": 12.0074718401,
+        "immOpt": 13.5865964001,
         "delOpt": 20.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "191": {
-        "immOpt": 12.017979275,
+        "immOpt": 13.5988077669,
         "delOpt": 20.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "192": {
-        "immOpt": 12.0284867099,
+        "immOpt": 13.6110191338,
         "delOpt": 20.0,
         "delay": 1.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "193": {
-        "immOpt": 8.5792791235,
+        "immOpt": 10.2894505027,
         "delOpt": 20.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "194": {
-        "immOpt": 8.5897865584,
+        "immOpt": 10.3016618696,
         "delOpt": 20.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "195": {
-        "immOpt": 8.6002939933,
+        "immOpt": 10.3138732364,
         "delOpt": 20.0,
         "delay": 2.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "196": {
-        "immOpt": 6.6728233536,
+        "immOpt": 8.2791418309,
         "delOpt": 20.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "197": {
-        "immOpt": 6.6833307885,
+        "immOpt": 8.2913531978,
         "delOpt": 20.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "198": {
-        "immOpt": 6.6938382234,
+        "immOpt": 8.3035645646,
         "delOpt": 20.0,
         "delay": 3.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "199": {
-        "immOpt": 4.6181938781,
+        "immOpt": 5.951554303,
         "delOpt": 20.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "200": {
-        "immOpt": 4.628701313,
+        "immOpt": 5.9637656698,
         "delOpt": 20.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "201": {
-        "immOpt": 4.6392087479,
+        "immOpt": 5.9759770367,
         "delOpt": 20.0,
         "delay": 5.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "202": {
-        "immOpt": 2.60670001,
+        "immOpt": 3.4921514319,
         "delOpt": 20.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "203": {
-        "immOpt": 2.6172074449,
+        "immOpt": 3.5043627988,
         "delOpt": 20.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "204": {
-        "immOpt": 2.6277148798,
+        "immOpt": 3.5165741656,
         "delOpt": 20.0,
         "delay": 10.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "205": {
-        "immOpt": 1.3897129692,
+        "immOpt": 1.9082169734,
         "delOpt": 20.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "206": {
-        "immOpt": 1.4002204041,
+        "immOpt": 1.9204283402,
         "delOpt": 20.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "207": {
-        "immOpt": 1.410727839,
+        "immOpt": 1.9326397071,
         "delOpt": 20.0,
         "delay": 20.0,
         "task": "loss",
         "p_imm": 0.7
     },
     "208": {
-        "immOpt": 0.5741397753,
+        "immOpt": 0.8029221335,
         "delOpt": 20.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.3
     },
     "209": {
-        "immOpt": 0.5846472102,
+        "immOpt": 0.8151335003,
         "delOpt": 20.0,
         "delay": 50.0,
         "task": "loss",
         "p_imm": 0.5
     },
     "210": {
-        "immOpt": 0.5951546451,
+        "immOpt": 0.8273448672,
         "delOpt": 20.0,
         "delay": 50.0,
         "task": "loss",

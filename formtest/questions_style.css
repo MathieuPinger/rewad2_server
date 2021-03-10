@@ -9,38 +9,64 @@ body{
 	margin:0;
 }
 
+form {
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+	margin-bottom:15px;
+  }
+
 .container{
 	width:80%;
+	max-width: 800px;
 	margin:auto;
 }
 
-.survey .form-group{
+.questions{
+	padding-left: 30px;
+}
+
+.surveyInfo{
 	padding-bottom:15px;
+}
+
+.survey .form-group{
+	padding-bottom: 20px;
 }
 
 .survey .form-table{
     display:table;
     width:100%;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	padding-bottom:15px;
 }
 
 .survey .tableRow{ 
-    display: table-row; 
+	display: table-row;
 }
 
 .survey .tableQuestion{
     display: table-cell;
-		    	padding: 3px 10px;
-                border: 1px solid #999999;
+	padding: 3px 10px;
+	border: 1px solid #999999;
 }
 .survey .tableCell{
     display: table-cell;
-		    	padding: 3px 10px;
-                border: 1px solid #999999;
+	padding: 3px 10px;
+	border: 1px solid #999999;
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.survey .tableRow:nth-child(1) {background: #999}
+.survey .tableRow:nth-child(odd) {background: #CCC}
+
+.survey .tableRow:nth-child(1) {
+	background: #666;
+	color: #fff;
+}
 
 .survey .formOptions{
     position: relative;
