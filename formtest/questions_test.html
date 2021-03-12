@@ -22,11 +22,23 @@
                 What is your gender?
             </div>
             <div class="formOptions">
-                <input type="radio" name="gender" value="male" required>Male<br>
-                <input type="radio" name="gender" value="female">Female<br>
-                <input type="radio" name="gender" value="">Prefer to self-describe:
-                <input type="text" name="gender" placeholder="Please specify"><br>
-                <input type="radio" name="gender" value="no_answer">Prefer not to answer
+                <div>
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender_selfdescribe" value="">
+                    <label for="gender_selfdescribe">Prefer to self-describe:</label>
+                    <input type="text" name="gender" id="gender_text" placeholder="Please specify">
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender_no_answer" value="no_answer">
+                    <label for="gender_no_answer">Prefer not to answer</label>
+                </div>
             </div>
         </div>
 
@@ -35,12 +47,30 @@
                 What is your highest level of education completed?
             </div>
             <div class="formOptions">
-                <input type="radio" name="education" value="primary" required>Primary School<br>
-                <input type="radio" name="education" value="gcse">GCSEs or equivalent<br>
-                <input type="radio" name="education" value="alevels">A-Levels or equivalent<br>
-                <input type="radio" name="education" value="undergrad">University/college undergraduate<br>
-                <input type="radio" name="education" value="grad">University/college post-graduate<br>
-                <input type="radio" name="education" value="phd">Doctoral degree<br>
+                <div>
+                    <input type="radio" name="education" id="primary" value="primary" required>
+                    <label for="primary">Primary School</label>
+                </div>
+                <div>
+                    <input type="radio" name="education" id="gcse" value="gcse">
+                    <label for="gcse">GCSEs or equivalent</label>
+                </div>
+                <div>
+                    <input type="radio" name="education" id="alevels" value="alevels">
+                    <label for="alevels">A-Levels or equivalent</label>
+                </div>
+                <div>
+                    <input type="radio" name="education" id="undergrad" value="undergrad">
+                    <label for="undergrad">University/college undergraduate</label>
+                </div>
+                <div>
+                    <input type="radio" name="education" id="grad" value="grad">
+                    <label for="grad">University/college post-graduate</label>
+                </div>
+                <div>
+                    <input type="radio" name="education" id="phd" value="phd">
+                    <label for="phd">Doctoral degree</label>
+                </div>
             </div>
         </div>
 
@@ -49,13 +79,31 @@
                 What is your current employment status?
             </div>
             <div class="formOptions">
-                <input type="radio" name="employment" value="unemployed" required>Unemployed<br>
-                <input type="radio" name="employment" value="student">Student<br>
-                <input type="radio" name="employment" value="self-employed">Self-employed<br>
-                <input type="radio" name="employment" value="employed">Employed within company/organisation<br>
-                <input type="radio" name="employment" value="">Prefer to self-describe:
-                <input type="text" name="employment" placeholder="Please specify"><br>
-                <input type="radio" name="employment" value="no_answer">Prefer not to answer<br>
+                <div>
+                    <input type="radio" name="employment" id="unemployed" value="unemployed" required>
+                    <label for="unemployed">Unemployed</label>
+                </div>
+                <div>
+                    <input type="radio" name="employment" id="student" value="student">
+                    <label for="student">Student</label>
+                </div>
+                <div>
+                    <input type="radio" name="employment" id="self-employed" value="self-employed">
+                    <label for="self-employed">Self-employed</label>
+                </div>
+                <div>
+                    <input type="radio" name="employment" id="employed" value="employed">
+                    <label for="employed">Employed within company/organisation</label>
+                </div>
+                <div>
+                    <input type="radio" name="employment" id="employment_selfdescribe" value="">
+                    <label for="employment_selfdescribe">Prefer to self-describe:</label>
+                    <input type="text" name="employment" id="employment_text" placeholder="Please specify">
+                </div>
+                <div>
+                    <input type="radio" name="employment" id="employment_no_answer" value="no_answer">
+                    <label for="employment_no_answer">Prefer not to answer</label>
+                </div>
             </div>
         </div>
 
